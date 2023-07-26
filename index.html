@@ -222,7 +222,7 @@
           </div>
         </div>
         <div class="card-container grid md:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
-          <!-- card -->
+          <!-- card1 -->
           <div class="card py-10  bg-base-100 border shadow-xl">
             <figure class="px-10 pt-10">
               <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
@@ -239,11 +239,13 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
               <div class="card-actions">
-                <button class="btn btn-link">Details</button>
+                <!-- <button class="btn ">Details</button> -->
+                <button class="btn btn-link no-underline" onclick="my_modal_1.showModal()">Details</button>
               </div>
             </div>
           </div>
-          <!-- card -->
+       
+          <!-- card2 -->
           <div class="card py-10  bg-base-100 border shadow-xl">
             <figure class="px-10 pt-10">
               <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
@@ -254,17 +256,17 @@
               <!-- rating -->
               <div class="rating">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
               <div class="card-actions">
-                <button class="btn btn-link">Details</button>
+                <button class="btn btn-link no-underline" onclick="my_modal_2.showModal()">Details</button>
               </div>
             </div>
           </div>
-          <!-- card -->
+          <!-- card3 -->
           <div class="card py-10 bg-base-100 border shadow-xl">
             <figure class="px-10 pt-10">
               <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
@@ -275,17 +277,17 @@
               <!-- rating -->
               <div class="rating">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
               <div class="card-actions">
-                <button class="btn btn-link">Details</button>
+                <button class="btn btn-link no-underline"  onclick="my_modal_3.showModal()">Details</button>
               </div>
             </div>
           </div>
-          <!-- card -->
+          <!-- card4 -->
           <div class="card py-10 bg-base-100 border shadow-xl">
             <figure class="px-10 pt-10">
               <img src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
@@ -302,7 +304,7 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
               <div class="card-actions">
-                <button class="btn btn-link">Details</button>
+                <button class="btn btn-link no-underline" onclick="my_modal_4.showModal()">Details</button>
               </div>
             </div>
           </div>
@@ -509,5 +511,116 @@
       </div>
     </footer>
     <!-- footer -->
+
+          <!-- modal-1 -->
+           <dialog id="my_modal_1" class="modal">
+            <form method="dialog" class="modal-box">
+              <div class="card py-10  bg-base-100 ">
+                <figure class="px-10 pt-10">
+                  <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <p>Banana</p>
+                  <!-- rating -->
+                  <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="modal-action">
+                    <button class="btn text-red-500">Close</button>
+                    <button class="btn btn-error text-white">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </dialog>
+          <!-- modal-1 -->
+          <!-- modal-2 -->
+          <dialog id="my_modal_2" class="modal">
+            <form method="dialog" class="modal-box">
+              <div class="card py-10  bg-base-100 ">
+                <figure class="px-10 pt-10">
+                  <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <p>Apple</p>
+                  <!-- rating -->
+                  <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="modal-action">
+                    <button class="btn text-red-500">Close</button>
+                    <button class="btn btn-error text-white">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </dialog>
+          <!-- modal-2 -->
+          <!-- modal-3 -->
+          <dialog id="my_modal_3" class="modal">
+            <form method="dialog" class="modal-box">
+              <div class="card py-10  bg-base-100 ">
+                <figure class="px-10 pt-10">
+                  <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <p>Orange</p>
+                  <!-- rating -->
+                  <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="modal-action">
+                    <button class="btn text-red-500">Close</button>
+                    <button class="btn btn-error text-white">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </dialog>
+          <!-- modal-3 -->
+          <!-- modal-4 -->
+          <dialog id="my_modal_4" class="modal">
+            <form method="dialog" class="modal-box">
+              <div class="card py-10  bg-base-100 ">
+                <figure class="px-10 pt-10">
+                  <img src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <p>Red Dragon</p>
+                  <!-- rating -->
+                  <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <div class="modal-action">
+                    <button class="btn text-red-500">Close</button>
+                    <button class="btn btn-error text-white">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </dialog>
+          <!-- modal-4 -->
+
+
 </body>
 </html>
